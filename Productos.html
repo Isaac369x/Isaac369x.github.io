@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Productos</title>
+    <nav>
+     <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="productos.html">Productos</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+</nav>
+<h1>Bienvenido a nuestra página de Productos</h1>
+</head>
+ </html>
+
+ <style> 
+
+  body {
+   background-color: #9b3d3d; 
+            color: #10110f; 
+            font-family: "Edu QLD Beginner"cursive;
+        font-optical-sizing:inherit;
+        text-align:left;
+       font: weight 100px;
+       text-decoration: underline;
+     }
+     .tipografia {
+  font-size: 2em;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.color {
+  color: #333;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+.tipografia {
+      font-size: 2em;
+      text-align: center;
+      margin-top: 20px;
+      color: #333;
+    }
+
+    .card {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .producto {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .producto:hover {
+      transform: scale(1.03);
+    }
+
+    .producto img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .precio {
+      font-weight: bold;
+      margin: 10px 0;
+      color: #e91e63;
+    }
+  </style>
+</head>
+<style></style>
+<body>
+  <main>
+    <section class="parent">
+      <div class="contenedor_limite">
+        <h2 class="tipografia color">Artículos</h2>
+        <div class="card">
+          <div class="producto">
+           <img src="./Imagen/s.jpg" alt="merch" style="width:200px;" />
+            <p class="precio">Precio: $35</p>
+            <p>
+              Figuras Valkyrie Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Quas a libero laborum voluptatibus sapiente
+              laboriosam quo rem, nesciunt incidunt sit.
+            </p>
+          </div>
+
+          <div class="producto">
+            <img src="./Imagen/v.jpg" alt="plush past valk" />
+            <p class="precio">Precio: $45</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              iste officia quo architecto. Iusto saepe itaque rerum reiciendis
+              nostrum. Nostrum, ipsam molestias voluptatibus vero iure labore
+              optio sapiente numquam architecto?
+            </p>
+          </div>
+          <div class="producto">
+            <img src="./Imagen/c.jpg" alt="pashas variadas" />
+            <p class="precio">Precio: $5</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam
+              ab aut quas sed expedita provident tempore minus aperiam
+              reprehenderit pariatur. Quos assumenda corrupti suscipit ducimus
+              accusamus qui officia, mollitia impedit!
+            </p>
+          </div>
+
+          <div class="producto">
+            <img src="./Imagen/pa.webp" alt="pashas variadas" />
+            <p class="precio">Precio: $7</p>
+            <p>Pashas mika</p>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
+
